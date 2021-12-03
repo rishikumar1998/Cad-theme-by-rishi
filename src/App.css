@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ************************* */
+.css-6fxtnq-MuiInputBase-root-MuiInput-root{
+  color: #fff !important;
+  
+}
+.css-6fxtnq-MuiInputBase-root-MuiInput-root::before, .css-6fxtnq-MuiInputBase-root-MuiInput-root::after{
+  border: 0px !important;
+}
+.css-1g12qau-MuiSvgIcon-root-MuiNativeSelect-icon{
+  color: #fff !important;
+  font-size: 18px !important;
+  
+}
+.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input:not([multiple]) option{
+  background-color: #111828 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input.css-19ygod6-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input
+{
+  font-weight: 500 !important;
+}
+
+
+.bannerarea{
+  background-color: #111828;
+}
+
+img{
+  width: 100%;
+}
+.shopbycategoty{
+  padding: 94px 39px 49px 39px;
+}
+.shopTittle{
+  float: left;
+  font-size: calc(1vw + 1.1rem);
+    font-weight: 900 !important;
+}
+.shopTittleCollection{
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    margin-bottom: 0px;
+}
+.browseCategory, .browseCategory svg {
+  color: #645fb9;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+.shopbyCollection{
+  padding: 1px 39px 49px 39px;
+}
+.crdTittle{
+  font-size: 15px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.crdDetail{
+  font-size: 15px;
+    font-family: sans-serif;
+    color: #837f7f;
+}
+.tptext{
+  padding-bottom: 24px;
+}
+.MuiBox-root .css-cnd76u-MuiPaper-root{
+  box-shadow: none !important;
+}
+.section-padding{
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+.footerbar{
+  background-color: #111828;
+}
+.footerGrid{
+  background: transparent !important;
+  box-shadow:none !important;
+}
+.footerGrid ul li{
+  display: flex;
+    padding: 9px;
+    color: #d1d1d1;
+}
+.footerTitle{
+  font-size: 15px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.footerTextfield {
+  background-color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.footerTextfield::-moz-focus-outer{
+  outline: none !important;
+}
+.newsLetterBtn{
+  background-color: #5046e5 !important;
+    padding: 8px 20px !important;
+    color: #ffff !important;
+    /* margin: 0px 10px !important; */
+}
+.copyrightFooter{
+  background-color: #111828 !important;
+    color: #d1d1d1 !important;
+    text-align: left !important;
+    padding: 15px 48px 10px 48px !important;
+}
+.copyrightContent{
+  padding: 29px  0px !important;
+}
+a{
+  text-decoration: none;
+  color: #d1d1d1;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/banner.png");
+  height:auto;
+  min-height:600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 17px 20px;
+  color: #555;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 7px;
+  font-weight: 600;
+}
+button {font-size: calc(1vw + 0.4rem);}
+/* .hero-text h1{
+  font-size: 5rem;
+} */
+/* .hero-text p{
+  font-size:25px;
+} */
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.hero-image2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/banner.png");
+  min-height:600px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 6px;
+}
+/* .hero-image2 .hero-text h1{
+  font-size: 3rem;
+}
+.hero-image2 .hero-text p{
+  font-size:25px;
+} */
+h1,h2{
+  font-size: calc(3vw + 1.4rem);
+}
+p{
+  font-size: calc(1vw + 0.4rem);
+}
+.shopbycategotyTopTittle{
+  padding: 0px 0px 49px 0px;
+}
